@@ -182,12 +182,11 @@ export default function Home() {
             </div>
           </div>
           <div className="md:col-span-2 relative aspect-[4/5] opacity-80 group">
-            <div className="absolute inset-0 border border-black/5 scale-105 -z-10 group-hover:scale-100 transition-transform duration-500" />
             <Image
-              src="/placeholder.svg?height=500&width=400"
+              src="/india_map_new.png"
               alt="India context"
               fill
-              className="object-contain grayscale brightness-90 transition-all group-hover:brightness-100"
+              className="object-contain mix-blend-multiply transition-all group-hover:scale-105 -translate-y-12"
             />
           </div>
         </div>
